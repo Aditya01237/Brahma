@@ -1,4 +1,5 @@
 import 'package:brahma/utils/colors.dart';
+import 'package:brahma/widgets/search.dart';
 import 'package:flutter/material.dart';
 
 class WebScreenLayout extends StatelessWidget {
@@ -6,6 +7,8 @@ class WebScreenLayout extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: backgroundColor,
@@ -38,6 +41,25 @@ class WebScreenLayout extends StatelessWidget {
             width: 10,
           ),
         ],
+      ),
+      body: Padding(
+        padding: const EdgeInsets.only(left: 5, right: 5),
+        child: Column(
+          children: [
+            SizedBox(
+              height: size.height * 0.20,
+            ),
+            const Expanded(
+                child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Column(
+                  children: [Search()],
+                )
+              ],
+            ))
+          ],
+        ),
       ),
     );
   }

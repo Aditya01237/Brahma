@@ -1,6 +1,7 @@
 import 'package:brahma/responsive/mobile_screen_layout.dart';
 import 'package:brahma/responsive/responsive_layout_screen.dart';
 import 'package:brahma/responsive/web_screen_layout.dart';
+import 'package:brahma/screens/search_screen.dart';
 import 'package:brahma/utils/colors.dart';
 import 'package:flutter/material.dart';
 
@@ -15,12 +16,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        title: 'Brahma',
-        theme:
-            ThemeData.dark().copyWith(scaffoldBackgroundColor: backgroundColor),
-        home: const ResponsiveLayoutScreen(
-            mobileLayoutScreen: MobileScreenLayout(),
-            webLayoutScreen: WebScreenLayout()));
+      debugShowCheckedModeBanner: false,
+      title: 'Brahma',
+      theme:
+          ThemeData.dark().copyWith(scaffoldBackgroundColor: backgroundColor),
+      home: const ResponsiveLayoutScreen(
+        mobileLayoutScreen: MobileScreenLayout(),
+        webLayoutScreen: WebScreenLayout(),
+      ),
+    );
   }
 }
