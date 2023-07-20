@@ -14,11 +14,8 @@ class ApiService {
             querTerm.contains(' ') ? querTerm.split(' ').join('%20') : querTerm;
         final response = await http.get(
           Uri.parse(
-              'https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=$contextKey&q=$q&start=$start'),
+              'https://www.googleapis.com/customsearch/v1?key=$apiKey&cx=$contextKey&q=$q&start=$start'),
         );
-        print(response.statusCode);
-        print(response.body);
-
         if (response.statusCode == 200) {
           final jsonData = response.body;
           final resData = json.decode(jsonData);
