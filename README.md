@@ -1,16 +1,27 @@
-# brahma
+# Brahma
 
-A new Flutter project.
+![Brahms Screenshot](your-screenshot-url.png)
 
-## Getting Started
+A fully responsive Google Clone that works seamlessly on Android, iOS, and web browsers.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Responsive user interface.
+- Fetches search results from Google's Custom Search API.
+- Pagination for navigating through search results.
+- Integrated YouTube search functionality.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## YouTube Tutorial
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Learn how to set up and use this Google Clone by watching our YouTube tutorial on [Rivaan Ranawat's channel](your-youtube-tutorial-link).
+
+[![YouTube Tutorial](your-youtube-thumbnail-url.png)](your-youtube-tutorial-link)
+
+## Installation
+
+Follow these steps to set up and run the Google Clone on your local environment:
+
+1. Clone this repository to your local machine.
+
+   ```bash
+   git clone https://github.com/yourusername/google-clone-flutter.git
