@@ -14,3 +14,4 @@ A fully responsive Google Clone that works seamlessly on Android, iOS, and web b
 ## Screenshots
 
 <img src= "https://github.com/Aditya01237/Brahma/assets/80575917/580549dc-a807-438a-9133-18cf256ab0ee" alt="splash" width="1000" height="500"/>
+<img src= "https://github.com/Aditya01237/Brahma/assets/80575917/990ec2d3-2655-4936-a4cb-e9c8e1dd1a1f" width="1000" height="500"/>
