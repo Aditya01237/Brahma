@@ -1,7 +1,5 @@
 # Brahma
 
-![Brahms Screenshot](your-screenshot-url.png)
-
 A fully responsive Google Clone that works seamlessly on Android, iOS, and web browsers.
 
 ## Features
