@@ -11,17 +11,6 @@ A fully responsive Google Clone that works seamlessly on Android, iOS, and web b
 - Pagination for navigating through search results.
 - Integrated YouTube search functionality.
 
-## YouTube Tutorial
+## Screenshots
 
-Learn how to set up and use this Google Clone by watching our YouTube tutorial on [Rivaan Ranawat's channel](your-youtube-tutorial-link).
-
-[![YouTube Tutorial](your-youtube-thumbnail-url.png)](your-youtube-tutorial-link)
-
-## Installation
-
-Follow these steps to set up and run the Google Clone on your local environment:
-
-1. Clone this repository to your local machine.
-
-   ```bash
-   git clone https://github.com/yourusername/google-clone-flutter.git
+<img src= "https://github.com/Aditya01237/Brahma/assets/80575917/580549dc-a807-438a-9133-18cf256ab0ee" alt="splash" width="270" height="500"/>
